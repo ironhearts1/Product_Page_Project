@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>The best Gis in town!</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="script.js" defer></script>
+        <script src="jquery.singlePageNav.js" defer></script>
+    </head>
+    <body>
+        <div class="full-page">
+            <header>
+                <div class="logo">
+                    <img src="flowlogo.png" alt="Logo for Flow Kimonos" />
+                </div>
+                <a href="javascript:void(0)" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <div class="navbar-links">
+                    <ul>
+                        <li><a href="#Sign-up">Sign up!</a></li>
+                        <li><a href="#Features">Features</a></li>
+                        <li><a href="#How-it-works">How It Works</a></li>
+                        <li><a href="#Maint">Maintenance</a></li>
+                        <li><a href="#Pricing">Pricing</a></li>
+                    </ul>
+                </div>
+            </header>
+            <section class="sign-up" id="Sign-up">
+                <h2>Strong, Durable, and Dependable Gis</h2>
+                <p>From Flow Kimonos</p>
+                <form id="form">
+                    <input name="email" id="email" type="email" placeholder="Enter your email address here" required />
+                    <input type="submit" value="Sign Up Here!" id="submit" class="sign-up-btn" />
+                </form>
+            </section>
+            <section class="features" id="Features">
+                <div class="feat">
+                    <div class="icon">
+                        <img src="gi-icon.png" alt="icon of gi" />
+                    </div>
+                    <div class="desc">
+                        <h2>Style meets absolute strength and dependability</h2>
+                        <p>We offer many different styles of Gi that all carry with them a unique look and feel while assuring the strength of all material.</p>
+                    </div>
+                </div>
+                <div class="feat">
+                    <div class="icon">
+                        <img src="truck-icon.png" alt="icon of shipping truck-icon" />
+                    </div>
+                    <div class="desc">
+                        <h2>All shipping guarenteed within two weeks</h2>
+                        <p>
+                            For all online orders within North America we promise you will receive your purchase by two weeks time.
+                            <i>Any orders outside of North America are not subeject to this guarentee</i>.
+                        </p>
+                    </div>
+                </div>
+                <div class="feat">
+                    <div class="icon">
+                        <img src="badge-icon.png" alt="icon of badge" />
+                    </div>
+                    <div class="desc">
+                        <h2>Highest quality guarenteed with every order</h2>
+                        <p>Each order can be returned with a money back guarentee within the first six months if any issues occur with the gi.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="how-it-works" id="How-it-works">
+                <h2 class="sect-heading">Buying and using your Gi!</h2>
+                <p>Watch these vides for information!</p>
+                <div class="flex-video">
+                    <iframe class="how-to" src="https://www.youtube.com/embed/vt6haHU6Wx8"></iframe>
+                    <iframe class="how-to" src="https://www.youtube.com/embed/-shq5oDSCs4"></iframe>
+                    <iframe class="how-to" src="https://www.youtube.com/embed/sa8OckUWi2g"></iframe>
+                </div>
+            </section>
+            <section class="maint" id="Maint">
+                <h2 class="sect-heading extra-top-padding">Learn some general maintenance rules and tips for ensuring the lifespan of your gi!</h2>
+                <div class="maint-flex">
+                    <iframe class="how-to" src="https://www.youtube.com/embed/GKbXSxz_190" frameborder="0"></iframe>
+                    <div class="maint-list">
+                        <h3>Tips to maintain your Gi</h3>
+                        <ul>
+                            <li>MUST WASH YOUR GI AFTER EVERY USE</li>
+                            <li>Hang-drying reccomended in most cases</li>
+                            <li>Never wash or dry on high unless attempting to shrink</li>
+                            <li>Possible buy a size up to intentionally shrink it down to your size so you aren't as worried about shrinkage in the future</li>
+                            <li>If possible, own multiple gis so you aren't training in the same one every day</li>
+                            <li>Wash gi inside out</li>
+                            <li>If washing with rashguards, put rashguards in a laundry bag</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="pricing" id="Pricing">
+                <div class="product">
+                    <div class="prodHead">Refurished Gi</div>
+                    <h2 class="shop-price">$50</h2>
+                    <ol>
+                        <li>Cheap and affordable for first time buyers</li>
+                        <li>Color avaliability may vary</li>
+                    </ol>
+                    <label for="size">Choose a size:</label>
+                    <select name="size" id="size" class="size">
+                        <option value="A1">A1</option>
+                        <option value="A2">A2</option>
+                        <option value="A3">A3</option>
+                        <option value="A4">A4</option>
+                        <option value="A5">A5</option>
+                    </select>
+                    <button class="order-btn">Order!</button>
+                </div>
+                <div class="product">
+                    <div class="prodHead">Standard Gi</div>
+                    <h2 class="shop-price">$99</h2>
+                    <ol>
+                        <li>High quality, standard-weight Gi</li>
+                        <li>Colors avaliable: White, Blue, and Black</li>
+                    </ol>
+                    <label for="size">Choose a size:</label>
+                    <select name="size" id="size" class="size">
+                        <option value="A1">A1</option>
+                        <option value="A2">A2</option>
+                        <option value="A3">A3</option>
+                        <option value="A4">A4</option>
+                        <option value="A5">A5</option>
+                    </select>
+                    <button class="order-btn">Order!</button>
+                </div>
+                <div class="product">
+                    <div class="prodHead">Lightweight Gi</div>
+                    <h2 class="shop-price">$109</h2>
+                    <ol>
+                        <li>A lighter, more breathable fabric</li>
+                        <li>Colors: White, Blue, and Black</li>
+                    </ol>
+                    <label for="size">Choose a size:</label>
+                    <select name="size" id="size" class="size">
+                        <option value="A1">A1</option>
+                        <option value="A2">A2</option>
+                        <option value="A3">A3</option>
+                        <option value="A4">A4</option>
+                        <option value="A5">A5</option>
+                    </select>
+                    <button class="order-btn">Order!</button>
+                </div>
+                <div class="product">
+                    <div class="prodHead">Hemp Gi</div>
+                    <h2 class="shop-price">$149</h2>
+                    <ol>
+                        <li>Made from American hemp farmers</li>
+                        <li>Colors: White, Black, and Dark Green</li>
+                    </ol>
+                    <label for="size">Choose a size:</label>
+                    <select name="size" id="size" class="size">
+                        <option value="A1">A1</option>
+                        <option value="A2">A2</option>
+                        <option value="A3">A3</option>
+                        <option value="A4">A4</option>
+                        <option value="A5">A5</option>
+                    </select>
+                    <button class="order-btn">Order!</button>
+                </div>
+            </section>
+            <section class="shopping-cart-wrapper">
+                <div class="cart-heading-flex-container">
+                    <h2 class="cart-heading">Cart</h2>
+                </div>
+                <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">ITEM</span>
+                    <span class="cart-price cart-header cart-column">PRICE</span>
+                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                </div>
+                <div class="cart-items"></div>
+                <div class="cart-total">
+                    <!-- <strong class="cart-total-title">Sub-Total</strong> -->
+                    <span class="cart-total-price cart-end">Subtotal: $0</span>
+                    <span class="cart-total-tax cart-end">Tax(5%)-$0</span>
+                    <span class="cart-grand-total cart-end">Grand Total: $0</span>
+                </div>
+                <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+            </section>
+            <footer>
+                <ul>
+                    <li>About us</li>
+                    <li>Terms</li>
+                    <li>Contact</li>
+                </ul>
+                <span class="copyright">Copyright 2022, Flow Kimonos</span>
+            </footer>
+        </div>
+    </body>
+</html>
